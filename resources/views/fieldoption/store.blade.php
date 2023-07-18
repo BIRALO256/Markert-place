@@ -33,7 +33,7 @@
     </div>
    
     <button type="submit" class="btn btn-primary">Submit</button>
-    <a href="{{ route('displayFieldOption',['id' => Crypt::encrypt($data13->id ) ,'id2' => Crypt::encrypt($data14->id )     ] ) }}"><button type="button" class="btn btn-dark" style="color:white; background-color: #343a40;">Go Back</button></a>
+    
 
 </form>
 

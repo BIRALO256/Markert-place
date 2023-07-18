@@ -11,6 +11,13 @@ class Product extends Model
 
     protected $guarded = [];
 
+    protected $fillable = [
+        'name',
+        'description',
+        'reward_pionts_credit',
+        'product_category_id,'
+    ];
+
     public function categories()
     {
         return $this->belongsToMany(Category::class);
